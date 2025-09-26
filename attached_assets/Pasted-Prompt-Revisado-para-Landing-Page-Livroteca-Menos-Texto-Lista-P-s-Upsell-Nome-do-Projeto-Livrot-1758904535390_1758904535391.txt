@@ -1,0 +1,265 @@
+Prompt Revisado para Landing Page: Livroteca (Menos Texto, Lista Pós-Upsell)
+Nome do Projeto: Livroteca
+Objetivo da Página: Vender a coleção de +35 ebooks (e upsell de +20 audiobooks + Planner) com alta conversão, usando design minimalista, chamativo e ultra-direto.
+Público-Alvo: Pessoas que buscam desenvolvimento pessoal e profissional de forma eficiente e acessível.
+
+1. Configurações Gerais de Design
+Identidade Visual: Manter o padrão da imagem mockada e do feedback anterior.
+
+Fundo da Página: Cinza muito claro (#F8F8F8 ou similar).
+
+Fontes: 'Montserrat' ou 'Poppins' (títulos) e 'Open Sans' ou 'Roboto' (corpo). Limpas e legíveis.
+
+Cores:
+
+Principal: Branco, Cinza Escuro (texto).
+
+Destaque/CTA: Laranja vibrante (#FF8C00 ou similar).
+
+Detalhes: Preto (ícones).
+
+Efeitos:
+
+Sombras Sutis: Em botões, caixas de conteúdo e mockups.
+
+Espaçamento: Amplo espaço em branco para um visual clean.
+
+2. Estrutura da Página (Ordem e Conteúdo)
+2.1. Cabeçalho (Header)
+Logo: No canto superior esquerdo. Ícone + "Livroteca +35 Ebooks".
+
+Links de Navegação (Menu): No canto superior direito. "Sobre", "Depoimentos", "FAQ", Ícone de Busca.
+
+2.2. Seção 1: Herói (Acima da Dobra)
+Layout: Conteúdo à esquerda, imagem à direita.
+
+Título Principal (Headline - H1):
+
+ACESSO IMEDIATO A UMA BIBLIOTECA QUE VALE MILHARES DE REAIS
+
+Estilo: Grande, negrito, cinza escuro.
+
+Subtítulo (Subheadline - H2/Parágrafo):
+
+Desbloqueie +35 dos livros mais importantes do mundo, no formato ebook, pelo preço de um café.
+
+Estilo: Fonte padrão, negrito nas palavras-chave, cinza escuro.
+
+Call to Action (CTA) Principal:
+
+Botão: Laranja vibrante, grande, bordas arredondadas, sombra.
+
+Texto: QUERO MEU ACESSO IMEDIATO A R$10
+
+Texto de Apoio (Abaixo do CTA):
+
+Três linhas curtas com ícone de "check":
+
+✔ Acesso vitalício.
+
+✔ Leitura em qualquer dispositivo.
+
+✔ Download instantâneo.
+
+Elemento Visual (Direita):
+
+Mockup 3D de pilha de ebooks (com capas visíveis de best-sellers).
+
+Dois smartphones ao lado, exibindo interfaces de ebooks.
+
+Todos os mockups com sombras suaves.
+
+2.3. Seção 2: Valor e Impacto (Substitui "Agitando o Problema" e "Apresentando a Solução")
+Título da Seção (H3): Conhecimento de Milhões, Acessível para Você.
+
+Texto (Curto e direto, em 2-3 frases):
+
+Chega de buscar informações soltas. Tenha acesso organizado aos maiores best-sellers sobre finanças, hábitos, produtividade e negócios. Transforme sua vida e carreira com uma biblioteca que vale muito, por um investimento mínimo.
+
+Chamada Sutil para Ação (Opcional): "Sua jornada de sucesso começa agora."
+
+2.4. Seção 3: A Oferta Principal (Irresistível)
+Design: Caixa sutilmente destacada com borda e sombra.
+
+Título da Oferta (H4): OFERTA IRRESISTÍVEL (Laranja vibrante, negrito).
+
+Ícone: Pequeno ícone de presente ao lado.
+
+Descrição: Leve agora +35 Ebooks Best-Sellers por um pagamento único de:
+
+Preço:
+
+De: R$ 397 (riscado)
+
+Por Apenas: R$ 10 (Grande, negrito, laranja vibrante)
+
+CTA (Botão): Laranja vibrante, com sombra.
+
+GARANTIR MEUS 35 EBOOKS AGORA!
+
+Texto de Apoio: Pagamento único, acesso para sempre.
+
+2.5. Seção 4: O UPSELL (A Oferta VIP - O Mais Destacado da Página)
+Design: Grande caixa retangular com bordas arredondadas, fundo levemente alaranjado, borda laranja vibrante e sombra pronunciada (como na imagem).
+
+Título da Seção: Selo dourado/laranja com estrela: 🔥 OFERTA COMPLETA VIP 🔥
+
+Subtítulo: Quer acelerar seus resultados e aprender de forma completa?
+
+Texto (mais conciso): Por apenas mais R$7, leve tudo:
+
+✅ +35 Ebooks Best-Sellers
+
+✅ +20 Audiobooks Exclusivos: Aprenda em qualquer lugar, otimizando seu tempo.
+
+✅ +Planner de Estudo (Digital e Imprimível): Transforme conhecimento em ação e resultados concretos.
+
+Preço:
+
+Valor Total: R$ 597 (riscado)
+
+Leve TUDO por Apenas: R$ 17 (Muito grande, negrito, laranja vibrante)
+
+CTA (Botão VIP): Laranja vibrante, maior e mais chamativo, com sombra.
+
+SIM, QUERO O PACOTE COMPLETO POR R$17!
+
+Texto de Apoio: Acesso vitalício a todo o material. A melhor escolha!
+
+Elemento Visual (Direita, dentro da caixa VIP):
+
+Tablet com planner digital, smartphone com audiobook, fone de ouvido. Todos com sombras suaves.
+
+2.6. Seção 5: O que você vai receber (A Lista de Livros)
+Título da Seção (H3): Desbloqueie Acesso Imediato a Este Conhecimento:
+
+Subtítulo: Sua Livroteca inclui estes títulos transformadores em PDF (e 20 audiobooks exclusivos no pacote VIP):
+
+Lista de Livros: Apresentar a lista completa em 2 ou 3 colunas para otimizar o espaço.
+
+Os Sete Hábitos das Pessoas Altamente Eficazes – Stephen Covey
+
+Pai Rico, Pai Pobre – Robert Kiyosaki
+
+O Poder do Hábito – Charles Duhigg
+
+Mindset: A Nova Psicologia do Sucesso – Carol S. Dweck
+
+Inteligência Emocional – Daniel Goleman
+
+O Poder do Agora – Eckhart Tolle
+
+Mais Esperto que o Diabo – Napoleon Hill
+
+Os Segredos da Mente Milionária – T. Harv Eker
+
+Quem Pensa Enriquece – Napoleon Hill
+
+A Única Coisa – Gary Keller
+
+O Monge e o Executivo – James C. Hunter
+
+A Arte da Guerra – Sun Tzu
+
+Antifrágil – Nassim Taleb
+
+Rápido e Devagar – Daniel Kahneman
+
+A Lógica do Cisne Negro – Nassim Taleb
+
+Trabalhe 4 Horas por Semana – Timothy Ferriss
+
+O Homem Mais Rico da Babilônia – George S. Clason
+
+O Obstáculo é o Caminho – Ryan Holiday
+
+A Lei do Triunfo – Napoleon Hill
+
+Desperte o Gigante Interior – Anthony Robbins
+
+Poder Sem Limites – Anthony Robbins
+
+Essencialismo – Greg McKeown
+
+A Coragem de Ser Imperfeito – Brené Brown
+
+CNV – Comunicação Não Violenta – Marshall Rosenberg
+
+As Armas da Persuasão – Robert Cialdini
+
+A Startup Enxuta – Eric Ries
+
+Ansiedade: Como Enfrentar o Mal do Século – Augusto Cury
+
+Foco – Daniel Goleman
+
+Mais Rápido, Melhor – Charles Duhigg
+
+O Ego é Seu Inimigo – Ryan Holiday
+
+O Jogo Interior de Tênis – W. Timothy Gallwey
+
+O Milagre do Amanhã – Hal Elrod
+
+Disciplina é Destino – Ryan Holiday
+
+Meditações – Marco Aurélio
+
+Hábitos Atômicos – James Clear
+
+Arrume a Sua Cama – William H. McRaven
+
+O Jeito Havard de Ser Feliz - Shawn Achor
+
+2.7. Seção 6: Garantia Incondicional (Risco Zero)
+Design: Caixa com borda e sombra, ícone de selo/escudo.
+
+Título (H3): Garantia Blindada de 7 Dias.
+
+Texto (Mais Curto): "Sem risco! Explore toda a Livroteca por 7 dias. Se não amar, devolvemos 100% do seu dinheiro. Simples assim."
+
+2.8. Seção 7: Última Chamada (Repetição da Oferta)
+Título (H3): Pronto para começar? Escolha seu acesso:
+
+Layout: Duas caixas lado a lado.
+
+Caixa 1: Pacote Essencial
+
++35 Ebooks
+
+Acesso Vitalício
+
+Apenas R$10 (Laranja vibrante, negrito)
+
+[Botão: QUERO SÓ OS EBOOKS]
+
+Caixa 2: Pacote Completo VIP (RECOMENDADO)
+
++35 Ebooks
+
++20 Audiobooks
+
++Planner de Estudo
+
+Acesso Vitalício
+
+Apenas R$17 (Laranja vibrante, negrito, fonte maior)
+
+[Botão: QUERO O PACOTE COMPLETO AGORA!]
+
+2.9. Seção 8: Perguntas Frequentes (FAQ)
+Título (H3): Perguntas Frequentes
+
+Design: Formato sanfona (accordion).
+
+Perguntas e Respostas (concisas):
+
+Como recebo o material? R: Acesso imediato via e-mail após a compra.
+
+O pagamento é único? R: Sim, 100% único, sem mensalidades.
+
+Posso ler em qualquer dispositivo? R: Sim, PDFs compatíveis com todos os dispositivos.
+
+É seguro comprar aqui? R: Sim, pagamento via [Nome da Plataforma, ex: Kiwify], plataforma segura.
+
+Acesso vitalício? R: Sim, você baixa o conteúdo e ele é seu para sempre.
