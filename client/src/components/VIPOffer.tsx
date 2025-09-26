@@ -21,10 +21,10 @@ export default function VIPOffer() {
                 <Flame className="h-5 w-5" />
               </div>
             </div>
-            <h3 className="font-heading font-bold text-xl text-foreground mb-2">
+            <h3 className="font-heading font-bold text-lg sm:text-xl text-foreground mb-2 break-words">
               Quer acelerar seus resultados e aprender de forma completa?
             </h3>
-            <p className="text-lg text-foreground">
+            <p className="text-base sm:text-lg text-foreground break-words">
               Por apenas mais R$7, leve tudo:
             </p>
           </CardHeader>
@@ -35,20 +35,20 @@ export default function VIPOffer() {
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
                     <Check className="h-6 w-6 text-chart-2 mt-1 flex-shrink-0" />
-                    <span className="text-foreground"><strong>+35 Ebooks Best-Sellers</strong></span>
+                    <span className="text-foreground break-words"><strong>+35 Ebooks Best-Sellers</strong></span>
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="h-6 w-6 text-chart-2 mt-1 flex-shrink-0" />
-                    <div>
-                      <span className="text-foreground"><strong>+20 Audiobooks Exclusivos:</strong></span>
-                      <p className="text-muted-foreground">Aprenda em qualquer lugar, otimizando seu tempo.</p>
+                    <div className="min-w-0 flex-1">
+                      <span className="text-foreground break-words"><strong>+20 Audiobooks Exclusivos:</strong></span>
+                      <p className="text-muted-foreground break-words">Aprenda em qualquer lugar, otimizando seu tempo.</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
                     <Check className="h-6 w-6 text-chart-2 mt-1 flex-shrink-0" />
-                    <div>
-                      <span className="text-foreground"><strong>+Planner de Estudo (Digital e Imprimível):</strong></span>
-                      <p className="text-muted-foreground">Transforme conhecimento em ação e resultados concretos.</p>
+                    <div className="min-w-0 flex-1">
+                      <span className="text-foreground break-words"><strong>+Planner de Estudo (Digital e Imprimível):</strong></span>
+                      <p className="text-muted-foreground break-words">Transforme conhecimento em ação e resultados concretos.</p>
                     </div>
                   </div>
                 </div>
@@ -58,19 +58,21 @@ export default function VIPOffer() {
                     <p className="text-sm text-muted-foreground">Valor Total:</p>
                     <p className="text-2xl text-muted-foreground line-through">R$ 597</p>
                     <p className="text-sm text-muted-foreground">Leve TUDO por Apenas:</p>
-                    <p className="text-6xl font-bold text-primary">R$ 17</p>
+                    <p className="text-4xl sm:text-5xl lg:text-6xl font-bold text-primary break-words">R$ 17</p>
                   </div>
                   
                   <Button
                     size="lg"
-                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xl py-4 rounded-lg shadow-lg"
+                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg sm:text-xl py-4 rounded-lg shadow-lg break-words hyphens-auto"
                     onClick={handleVIPClick}
                     data-testid="button-vip-offer"
                   >
-                    SIM, QUERO O PACOTE COMPLETO POR R$17!
+                    <span className="break-words text-center leading-tight">
+                      SIM, QUERO O PACOTE COMPLETO POR R$17!
+                    </span>
                   </Button>
                   
-                  <p className="text-sm text-primary font-semibold">
+                  <p className="text-sm text-primary font-semibold break-words text-center">
                     Acesso vitalício a todo o material. A melhor escolha!
                   </p>
                 </div>
