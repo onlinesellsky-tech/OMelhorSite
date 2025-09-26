@@ -16,19 +16,19 @@ export default function HeroSection() {
         <div className="flex flex-col lg:flex-row items-center gap-8">
           {/* Content */}
           <div className="flex-1 text-center lg:text-left">
-            <h1 className="font-heading font-bold text-3xl md:text-4xl lg:text-5xl text-foreground mb-4 leading-tight">
+            <h1 className="font-heading font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-foreground mb-4 leading-tight">
               ACESSO IMEDIATO A UMA BIBLIOTECA QUE VALE{" "}
               <span className="text-primary">MILHARES DE REAIS</span>
             </h1>
             
-            <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground mb-6 leading-relaxed px-2 sm:px-0">
               Desbloqueie <span className="font-semibold text-foreground">+35 dos livros</span> mais importantes do mundo,
               no formato ebook, pelo <span className="font-semibold text-primary">preço de um café</span>.
             </p>
             
             <Button
               size="lg"
-              className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg px-8 py-4 rounded-lg shadow-md mb-6"
+              className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base sm:text-lg px-4 sm:px-8 py-4 rounded-lg shadow-md mb-6"
               onClick={handleCTAClick}
               data-testid="button-cta-hero"
             >
@@ -38,15 +38,15 @@ export default function HeroSection() {
             <div className="space-y-2">
               <div className="flex items-center justify-center lg:justify-start gap-2">
                 <Check className="h-5 w-5 text-chart-2" />
-                <span className="text-foreground">Acesso vitalício</span>
+                <span className="text-sm sm:text-base text-foreground">Acesso vitalício</span>
               </div>
               <div className="flex items-center justify-center lg:justify-start gap-2">
                 <Check className="h-5 w-5 text-chart-2" />
-                <span className="text-foreground">Leitura em qualquer dispositivo</span>
+                <span className="text-sm sm:text-base text-foreground">Leitura em qualquer dispositivo</span>
               </div>
               <div className="flex items-center justify-center lg:justify-start gap-2">
                 <Check className="h-5 w-5 text-chart-2" />
-                <span className="text-foreground">Download instantâneo</span>
+                <span className="text-sm sm:text-base text-foreground">Download instantâneo</span>
               </div>
             </div>
           </div>
