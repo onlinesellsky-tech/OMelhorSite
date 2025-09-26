@@ -73,11 +73,11 @@ export default function VIPOffer() {
                   
                   <Button
                     size="lg"
-                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-base sm:text-lg py-4 px-4 rounded-lg shadow-lg"
+                    className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-sm sm:text-base py-4 px-3 rounded-lg shadow-lg"
                     onClick={handleVIPClick}
                     data-testid="button-vip-offer"
                   >
-                    SIM, QUERO O PACOTE COMPLETO POR R$17!
+                    QUERO O PACOTE COMPLETO POR R$17!
                   </Button>
                   
                   <p className="text-sm text-primary font-semibold text-center">
