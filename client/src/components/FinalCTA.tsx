@@ -34,13 +34,13 @@ export default function FinalCTA() {
               <div className="space-y-2">
                 <p className="text-foreground">+35 Ebooks</p>
                 <p className="text-muted-foreground">Acesso Vitalício</p>
-                <p className="text-4xl font-bold text-primary">R$ 10</p>
+                <p className="text-3xl sm:text-4xl font-bold text-primary">R$ 10</p>
               </div>
               
               <Button
                 size="lg"
                 variant="outline"
-                className="w-full font-bold text-lg py-3"
+                className="w-full font-bold text-sm sm:text-base lg:text-lg py-3"
                 onClick={handleEssentialClick}
                 data-testid="button-essential-package"
               >
@@ -69,16 +69,16 @@ export default function FinalCTA() {
                 <p className="text-foreground">+20 Audiobooks</p>
                 <p className="text-foreground">+Planner de Estudo</p>
                 <p className="text-muted-foreground">Acesso Vitalício</p>
-                <p className="text-5xl font-bold text-primary">R$ 17</p>
+                <p className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary">R$ 17</p>
               </div>
               
               <Button
                 size="lg"
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg py-3"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-sm sm:text-base lg:text-lg py-3"
                 onClick={handleVIPClick}
                 data-testid="button-vip-package"
               >
-                QUERO O PACOTE COMPLETO AGORA!
+                QUERO O PACOTE COMPLETO!
               </Button>
             </CardContent>
           </Card>
