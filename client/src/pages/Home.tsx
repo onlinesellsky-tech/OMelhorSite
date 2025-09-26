@@ -1,9 +1,11 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ValueSection from "@/components/ValueSection";
+import TargetAudienceSection from "@/components/TargetAudienceSection";
 import MainOffer from "@/components/MainOffer";
 import VIPOffer from "@/components/VIPOffer";
 import BooksList from "@/components/BooksList";
+import TestimonialsSection from "@/components/TestimonialsSection";
 import Guarantee from "@/components/Guarantee";
 import FinalCTA from "@/components/FinalCTA";
 import FAQ from "@/components/FAQ";
@@ -15,9 +17,11 @@ export default function Home() {
       <main>
         <HeroSection />
         <ValueSection />
+        <TargetAudienceSection />
         <MainOffer />
         <VIPOffer />
         <BooksList />
+        <TestimonialsSection />
         <Guarantee />
         <FinalCTA />
         <FAQ />

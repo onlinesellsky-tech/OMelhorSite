@@ -1,0 +1,99 @@
+Prompt Atualizado e Final para Landing Page: Livroteca (com Animações)
+Objetivo: Vender a coleção de ebooks com alta conversão, utilizando um design minimalista, chamativo, e agora com animações sutis de scroll para criar uma experiência premium e dinâmica.
+
+1. Configurações Gerais de Design e Animação
+Identidade Visual: Manter o padrão clean, com fundo cinza claro, textos em cinza escuro e o laranja vibrante para destaque e CTAs.
+
+Sombras: Utilizar sombras suaves (box-shadow) em botões, caixas de oferta e, agora, nas novas caixas de depoimento para dar profundidade e um efeito "flutuante".
+
+Animações de Scroll (Scroll Trigger): Os elementos devem surgir de forma suave conforme o usuário rola a página. O efeito mais comum e elegante é um leve "fade in" (aparecer suavemente) combinado com um sutil "slide up" (deslizar para cima). A animação deve ser rápida e não distrair.
+
+2. Estrutura da Página (com Novas Seções e Animações)
+2.1. Seção 1: Herói (Acima da Dobra)
+Conteúdo: Título Principal, Subtítulo, CTA principal, texto de apoio e mockup 3D dos ebooks/celulares. (Conteúdo inalterado).
+
+Animação Sugerida:
+
+Textos e Botão: Devem surgir com um efeito de "fade in" e leve "slide up" assim que a página carrega.
+
+Mockup 3D: Deve surgir com um "fade in" e um leve "slide from right" (deslizar da direita).
+
+2.2. Seção 2: Valor e Impacto
+Conteúdo: Título "Conhecimento de Milhões, Acessível para Você." e o texto curto explicando o valor. (Conteúdo inalterado).
+
+Animação Sugerida: Título e texto surgem com "fade in" e "slide up" conforme o usuário rola até esta seção.
+
+2.3. Seção 3: Para Quem é a Livroteca? (NOVA SEÇÃO)
+Objetivo: Fazer com que o visitante ideal se identifique imediatamente.
+
+Título da Seção (H3): Esta coleção foi feita para você que é...
+
+Layout: 3 ou 4 colunas ou caixas lado a lado, cada uma com um ícone simples e um texto.
+
+Conteúdo das Caixas:
+
+Ícone de Foguete: Empreendedor ou Autônomo: Buscando estratégias validadas para crescer seu negócio sem gastar uma fortuna.
+
+Ícone de Livro Aberto: Estudante ou Curioso: Querendo acelerar o aprendizado com os maiores pensadores do mundo de forma organizada.
+
+Ícone de Gráfico: Profissional Ambicioso: Procurando desenvolver novas habilidades (liderança, finanças, produtividade) para se destacar na carreira.
+
+Animação Sugerida: As caixas ou colunas devem surgir com um efeito "staggered fade in" (cada uma aparece com um pequeno atraso em relação à anterior), criando um efeito cascata elegante.
+
+2.4. Seção 4: A Oferta Principal e o UPSELL (VIP)
+Conteúdo: As duas caixas de oferta, com a VIP em maior destaque. (Conteúdo inalterado).
+
+Animação Sugerida:
+
+Caixa de Oferta (R$10): Surge com "fade in" e um leve "scale up" (aumenta de 95% para 100%).
+
+Caixa de Oferta VIP (R$17): Surge logo em seguida com o mesmo efeito, mas um pouco mais pronunciado para chamar mais atenção.
+
+2.5. Seção 5: O que você vai receber (A Lista de Livros)
+Conteúdo: Título e a lista completa dos 37 livros. (Conteúdo inalterado).
+
+Animação Sugerida: O título surge primeiro, e depois as colunas com os nomes dos livros surgem com um "fade in" suave.
+
+2.6. Seção 6: O que Nossos Leitores Dizem (NOVA SEÇÃO - PROVA SOCIAL)
+Objetivo: Aumentar a confiança e quebrar as últimas objeções com depoimentos.
+
+Título da Seção (H3): Milhares de Leitores Já Estão se Desenvolvendo.
+
+Layout: Três caixas de depoimento lado a lado (no desktop) e empilhadas (no mobile). Cada caixa deve ter uma sombra pronunciada.
+
+Conteúdo das Caixas (Exemplos):
+
+Caixa 1: "Eu gastaria mais de R$ 500 para comprar só os 5 primeiros livros da lista. Ter acesso a tudo isso por esse preço é simplesmente inacreditável. A melhor compra do ano!"
+
+⭐⭐⭐⭐⭐
+
+- Mariana S., Empreendedora
+
+Caixa 2: "A organização do material é perfeita. Com o planner, eu finalmente consegui criar uma rotina de leitura e aplicar os conceitos na minha carreira. Já estou vendo resultados!"
+
+⭐⭐⭐⭐⭐
+
+- Lucas F., Analista de Marketing
+
+Caixa 3: "Eu sempre quis ter acesso a esse conhecimento, mas não sabia por onde começar. A Livroteca foi o mapa que eu precisava. Os audiobooks são perfeitos para ouvir no trânsito."
+
+⭐⭐⭐⭐⭐
+
+- Julia P., Estudante
+
+Animação Sugerida: As caixas de depoimento devem deslizar suavemente para a posição ("slide in from bottom" ou "slide in from sides") conforme o usuário rola até elas.
+
+2.7. Seção 7: Garantia Incondicional (Risco Zero)
+Conteúdo: Caixa com o selo de garantia e o texto. (Conteúdo inalterado).
+
+Animação Sugerida: A caixa de garantia pode "pulsar" sutilmente uma vez ou simplesmente surgir com um "fade in".
+
+2.8. Seção 8: Última Chamada (Repetição da Oferta)
+Conteúdo: As duas caixas de oferta lado a lado. (Conteúdo inalterado).
+
+Animação Sugerida: Um "fade in" simples para reforçar a decisão.
+
+2.9. Seção 9: Perguntas Frequentes (FAQ)
+Conteúdo: Título e as perguntas em formato sanfona. (Conteúdo inalterado).
+
+Animação Sugerida: Cada pergunta pode ter um "fade in" individual conforme a seção aparece.
