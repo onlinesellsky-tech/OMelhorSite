@@ -21,7 +21,7 @@ export default function HeroSection() {
               <span className="text-primary">MILHARES DE REAIS</span>
             </h1>
             
-            <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
               Desbloqueie <span className="font-semibold text-foreground">+35 dos livros</span> mais importantes do mundo,
               no formato ebook, pelo <span className="font-semibold text-primary">preço de um café</span>.
             </p>
