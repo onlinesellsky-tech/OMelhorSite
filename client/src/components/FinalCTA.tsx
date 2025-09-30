@@ -66,7 +66,7 @@ export default function FinalCTA() {
             <CardContent className="text-center space-y-6">
               <div className="space-y-2">
                 <p className="text-foreground">+35 Ebooks</p>
-                <p className="text-foreground">+20 Audiobooks</p>
+                <p className="text-foreground">+10 Audiobooks</p>
                 <p className="text-foreground">+Planner de Estudo</p>
                 <p className="text-muted-foreground">Acesso Vitalício</p>
                 <p className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary">R$ 17</p>

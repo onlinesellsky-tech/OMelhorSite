@@ -47,9 +47,9 @@ export default function BooksList() {
             Desbloqueie Acesso Imediato a Este Conhecimento
           </h2>
           <p className="text-lg text-muted-foreground">
-            Sua Livroteca inclui estes títulos transformadores em PDF{" "}
+            Sua Biblioteca inclui estes títulos transformadores em PDF{" "}
             <span className="text-primary font-semibold">
-              (e 20 audiobooks exclusivos no pacote VIP)
+              (e 10 audiobooks exclusivos no pacote VIP)
             </span>
             :
           </p>

@@ -65,7 +65,7 @@ export default function TestimonialsSection() {
               </div>
               <p className="text-muted-foreground text-sm leading-relaxed italic">
                 "Eu sempre quis ter acesso a esse conhecimento, mas não sabia por onde começar. 
-                A Livroteca foi o mapa que eu precisava. Os audiobooks são perfeitos para ouvir no trânsito."
+                A Sua Biblioteca foi o mapa que eu precisava. Os audiobooks são perfeitos para ouvir no trânsito."
               </p>
               <div className="pt-2">
                 <p className="font-semibold text-foreground text-sm">Julia P.</p>

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-left">
           {/* Copyright */}
           <div className="text-sm text-muted-foreground">
-            © 2025 Livroteca  Todos os direitos reservados.
+            © 2025 Sua Biblioteca  Todos os direitos reservados.
           </div>
           
           {/* Links */}
@@ -23,11 +23,11 @@ export default function Footer() {
             <div className="flex items-center gap-2 text-muted-foreground">
               <Mail className="h-4 w-4" />
               <a 
-                href="mailto:suporte@livroteca.shop" 
+                href="mailto:suporte@suabiblioteca" 
                 className="hover:text-foreground transition-colors"
                 data-testid="link-support-email"
               >
-                suporte@livroteca.shop
+                suporte@suabiblioteca
               </a>
             </div>
           </div>

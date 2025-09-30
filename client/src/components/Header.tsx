@@ -10,7 +10,7 @@ export default function Header() {
             <span className="text-primary-foreground font-bold text-sm">L</span>
           </div>
           <span className="font-heading font-bold text-lg text-foreground">
-            Livroteca +35 Ebooks
+            Sua Biblioteca +35 Ebooks
           </span>
         </div>
         

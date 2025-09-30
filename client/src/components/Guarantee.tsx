@@ -17,7 +17,7 @@ export default function Guarantee() {
           
           <CardContent>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              <span className="font-semibold text-foreground">Sem risco!</span> Explore toda a Livroteca por 7 dias.
+              <span className="font-semibold text-foreground">Sem risco!</span> Explore toda a Sua Biblioteca por 7 dias.
               Se não amar, <span className="font-semibold text-primary">devolvemos 100% do seu dinheiro</span>. Simples assim.
             </p>
           </CardContent>

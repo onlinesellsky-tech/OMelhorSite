@@ -43,7 +43,7 @@ export default function VIPOffer() {
                     <Check className="h-6 w-6 text-chart-2 mt-1 flex-shrink-0" />
                     <div className="flex-1">
                       <span className="text-foreground text-sm sm:text-base">
-                        <strong>+20 Audiobooks Exclusivos:</strong>
+                        <strong>+10 Audiobooks Exclusivos:</strong>
                       </span>
                       <p className="text-muted-foreground text-sm sm:text-base">
                         Aprenda em qualquer lugar, otimizando seu tempo.
