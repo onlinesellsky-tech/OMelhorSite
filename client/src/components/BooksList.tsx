@@ -1,3 +1,5 @@
+import ScrollAnimation, { StaggeredAnimation, StaggeredItem } from "./ScrollAnimation";
+
 export default function BooksList() {
   const books = [
     "A Arte da Guerra – Sun Tzu",
@@ -42,32 +44,38 @@ export default function BooksList() {
   return (
     <section className="w-full bg-card py-12 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-8">
-          <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-4">
-            Desbloqueie Acesso Imediato a Este Conhecimento
-          </h2>
-          <p className="text-lg text-muted-foreground">
-            Sua Biblioteca inclui estes títulos transformadores em PDF{" "}
-            <span className="text-primary font-semibold">
-              (e 10 audiobooks exclusivos no pacote VIP)
-            </span>
-            :
-          </p>
-        </div>
+        <ScrollAnimation>
+          <div className="text-center mb-8">
+            <h2 className="font-heading font-bold text-2xl md:text-3xl text-foreground mb-4">
+              Desbloqueie Acesso Imediato a Este Conhecimento
+            </h2>
+            <p className="text-lg text-muted-foreground">
+              Sua Biblioteca inclui estes títulos transformadores em PDF{" "}
+              <span className="text-primary font-semibold">
+                (e 10 audiobooks exclusivos no pacote VIP)
+              </span>
+              :
+            </p>
+          </div>
+        </ScrollAnimation>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <StaggeredAnimation
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
+          staggerDelay={0.05}
+        >
           {books.map((book, index) => (
-            <div
-              key={index}
-              className="bg-background border border-card-border rounded-lg p-4 hover-elevate"
-              data-testid={`book-item-${index}`}
-            >
-              <p className="text-sm text-foreground leading-relaxed">
-                <span className="font-semibold text-primary">{index + 1}.</span> {book}
-              </p>
-            </div>
+            <StaggeredItem key={index}>
+              <div
+                className="bg-background border border-card-border rounded-lg p-4 hover-elevate transition-all duration-300 hover:shadow-lg"
+                data-testid={`book-item-${index}`}
+              >
+                <p className="text-sm text-foreground leading-relaxed">
+                  <span className="font-semibold text-primary">{index + 1}.</span> {book}
+                </p>
+              </div>
+            </StaggeredItem>
           ))}
-        </div>
+        </StaggeredAnimation>
       </div>
     </section>
   );
