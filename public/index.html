@@ -1,22 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>Livroteca - Acesso Imediato a +35 Ebooks Best-Sellers</title>
-    <meta name="description" content="Desbloqueie +35 dos livros mais importantes do mundo, no formato ebook, pelo preço de um café. Biblioteca digital com acesso vitalício por apenas R$10.">
-    <meta property="og:title" content="Livroteca - Biblioteca Digital de +35 Ebooks Best-Sellers">
-    <meta property="og:description" content="Transforme sua vida e carreira com os maiores best-sellers sobre finanças, hábitos, produtividade e negócios por apenas R$10.">
-    <meta property="og:type" content="website">
-    <script type="module" crossorigin src="/assets/index-yBFhVF1r.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BMsJ0fsz.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
-    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
-  </body>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meu site estático">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>Meu Site</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Bem-vindo ao Meu Site</h2>
+                <p>Este é um site estático pronto para deploy no GitHub e Vercel</p>
+                <button class="btn" id="cta-button">Saiba Mais</button>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2>Sobre</h2>
+                <p>Este é um template de site estático com HTML, CSS e JavaScript puro.</p>
+                <p>Totalmente responsivo e otimizado para performance.</p>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="container">
+                <h2>Contato</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
