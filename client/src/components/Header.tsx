@@ -1,13 +1,14 @@
 import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import bookLogo from "@/assets/book-logo.png";
 
 export default function Header() {
   return (
     <header className="w-full bg-background border-b border-border px-4 py-3">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
-          <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-sm">L</span>
+          <div className="w-8 h-8 rounded-md overflow-hidden">
+            <img src={bookLogo} alt="Livroteca Logo" className="w-full h-full object-cover" />
           </div>
           <span className="font-heading font-bold text-lg text-foreground">
             Sua Biblioteca +35 Ebooks
