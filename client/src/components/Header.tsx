@@ -1,6 +1,7 @@
 import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import bookLogo from "@/assets/book-logo.png";
+import ThemeToggle from "@/components/ThemeToggle";
 
 export default function Header() {
   return (
@@ -28,11 +29,15 @@ export default function Header() {
           <Button size="icon" variant="ghost" data-testid="button-search">
             <Search className="h-4 w-4" />
           </Button>
+          <ThemeToggle />
         </nav>
         
-        <Button size="icon" variant="ghost" className="md:hidden" data-testid="button-menu">
-          <Search className="h-4 w-4" />
-        </Button>
+        <div className="flex md:hidden items-center space-x-2">
+          <ThemeToggle />
+          <Button size="icon" variant="ghost" data-testid="button-menu">
+            <Search className="h-4 w-4" />
+          </Button>
+        </div>
       </div>
     </header>
   );
