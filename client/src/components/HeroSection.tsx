@@ -1,8 +1,8 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import ebookStackImage from "@assets/generated_images/3D_ebook_stack_mockup_ba262e51.png";
-import smartphoneImage from "@assets/generated_images/Smartphone_ebook_interface_mockup_a29bb8a0.png";
+import ebookStackImage from "@assets/Gemini_Generated_Image_c1wtyc1wtyc1wtyc_1760038098421.png";
+import smartphoneImage from "@assets/Gemini_Generated_Image_n61ioln61ioln61i_1760038098419.png";
 
 export default function HeroSection() {
   const handleCTAClick = () => {
@@ -91,12 +91,12 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              whileHover={{ scale: 1.05, rotate: 2 }}
+              whileHover={{ scale: 1.03, rotate: 1 }}
             >
               <img
                 src={ebookStackImage}
                 alt="Pilha de ebooks best-sellers"
-                className="w-full max-w-md rounded-lg shadow-lg"
+                className="w-full max-w-xs sm:max-w-sm rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
                 data-testid="img-ebook-stack"
               />
             </motion.div>
@@ -105,12 +105,12 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              whileHover={{ scale: 1.05, rotate: -2 }}
+              whileHover={{ scale: 1.03, rotate: -1 }}
             >
               <img
                 src={smartphoneImage}
                 alt="Smartphones com interface de ebooks"
-                className="w-full max-w-sm rounded-lg shadow-md"
+                className="w-full max-w-xs sm:max-w-sm rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
                 data-testid="img-smartphones"
               />
             </motion.div>
