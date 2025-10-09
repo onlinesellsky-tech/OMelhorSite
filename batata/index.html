@@ -2,70 +2,103 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Projeto Batata</title>
-    <meta name="description" content="Página de exemplo com HTML, CSS e JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Sua Biblioteca - Acesso Imediato a +35 Ebooks Best-Sellers</title>
+    <meta name="description" content="Desbloqueie +35 dos livros mais importantes do mundo, no formato ebook, pelo preço de um café. Biblioteca digital com acesso vitalício por apenas R$10.">
+    <meta property="og:title" content="Sua Biblioteca - Biblioteca Digital de +35 Ebooks Best-Sellers">
+    <meta property="og:description" content="Transforme sua vida e carreira com os maiores best-sellers sobre finanças, hábitos, produtividade e negócios por apenas R$10.">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>🥔 Projeto Batata</h1>
-            <nav>
-                <a href="#home">Início</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#contato">Contato</a>
-            </nav>
+            <h1>Livroteca +35 Ebooks</h1>
         </div>
     </header>
 
     <main>
-        <section id="home" class="hero">
+        <section class="hero">
             <div class="container">
-                <h2>Bem-vindo ao Projeto Batata!</h2>
-                <p>Este é um exemplo de página HTML com CSS e JavaScript.</p>
-                <button id="botao-principal" class="btn">Clique Aqui</button>
-                <p id="contador" class="contador">Cliques: 0</p>
+                <h2>Sua Biblioteca - Acesso Imediato a +35 Ebooks Best-Sellers</h2>
+                <p>Desbloqueie +35 dos livros mais importantes do mundo, no formato ebook, pelo preço de um café.</p>
+                <button class="cta-button">Garantir Acesso por R$10</button>
             </div>
         </section>
 
-        <section id="sobre" class="sobre">
+        <section class="value">
             <div class="container">
-                <h2>Sobre o Projeto</h2>
-                <div class="cards">
-                    <div class="card">
-                        <h3>📄 HTML</h3>
-                        <p>Estrutura da página</p>
+                <h2>Por que escolher a Livroteca?</h2>
+                <div class="benefits">
+                    <div class="benefit">
+                        <h3>📚 +35 Best-Sellers</h3>
+                        <p>Acesso completo aos maiores sucessos mundiais</p>
                     </div>
-                    <div class="card">
-                        <h3>🎨 CSS</h3>
-                        <p>Estilos visuais</p>
+                    <div class="benefit">
+                        <h3>💰 Preço Imbatível</h3>
+                        <p>Tudo por apenas R$10 - menos que um café</p>
                     </div>
-                    <div class="card">
-                        <h3>⚡ JavaScript</h3>
-                        <p>Interatividade</p>
+                    <div class="benefit">
+                        <h3>⚡ Acesso Imediato</h3>
+                        <p>Comece a ler em segundos após a compra</p>
+                    </div>
+                    <div class="benefit">
+                        <h3>🔒 Vitalício</h3>
+                        <p>Pague uma vez, tenha acesso para sempre</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contato" class="contato">
+        <section class="offer">
             <div class="container">
-                <h2>Formulário de Contato</h2>
-                <form id="form-contato">
-                    <input type="text" id="nome" placeholder="Seu nome" required>
-                    <input type="email" id="email" placeholder="Seu email" required>
-                    <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
-                    <button type="submit" class="btn">Enviar</button>
-                </form>
-                <div id="mensagem-sucesso" class="mensagem-sucesso"></div>
+                <h2>Oferta Principal</h2>
+                <div class="price-box">
+                    <h3>+35 Ebooks Best-Sellers</h3>
+                    <p class="price">R$ 10,00</p>
+                    <ul>
+                        <li>✓ Acesso vitalício</li>
+                        <li>✓ Todos os ebooks inclusos</li>
+                        <li>✓ Suporte dedicado</li>
+                        <li>✓ Garantia de 7 dias</li>
+                    </ul>
+                    <button class="cta-button">Comprar Agora</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="vip">
+            <div class="container">
+                <h2>🎁 Upgrade VIP - Oferta Exclusiva</h2>
+                <div class="price-box vip-box">
+                    <h3>Pacote VIP Completo</h3>
+                    <p class="price">R$ 17,00</p>
+                    <ul>
+                        <li>✓ Tudo do pacote anterior</li>
+                        <li>✓ +20 Audiobooks exclusivos</li>
+                        <li>✓ Planner digital</li>
+                        <li>✓ Bônus especiais</li>
+                    </ul>
+                    <button class="cta-button vip-btn">Fazer Upgrade VIP</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="guarantee">
+            <div class="container">
+                <h2>🛡️ Garantia de 7 Dias</h2>
+                <p>Se você não ficar satisfeito, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.</p>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 Projeto Batata - Todos os direitos reservados</p>
+            <p>&copy; 2025 Sua Biblioteca - Todos os direitos reservados.</p>
+            <p>Suporte: suporte@suabiblioteca.com</p>
         </div>
     </footer>
 
