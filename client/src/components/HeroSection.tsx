@@ -1,8 +1,8 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import ebookStackImage from "@assets/Gemini_Generated_Image_c1wtyc1wtyc1wtyc_1760038098421.png";
-import smartphoneImage from "@assets/Gemini_Generated_Image_n61ioln61ioln61i_1760038098419.png";
+import ebookStackImage from "@assets/Gemini_Generated_Image_c1wtyc1wtyc1wtyc_1760038467597.png";
+import smartphoneImage from "@assets/Gemini_Generated_Image_n61ioln61ioln61i_1760038467596.png";
 
 export default function HeroSection() {
   const handleCTAClick = () => {
@@ -81,36 +81,36 @@ export default function HeroSection() {
           </motion.div>
           
           <motion.div 
-            className="flex-1 flex flex-col items-center space-y-6"
+            className="flex-1 flex flex-col items-center justify-center gap-6"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <motion.div 
-              className="relative"
+              className="relative w-full"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              whileHover={{ scale: 1.03, rotate: 1 }}
+              whileHover={{ scale: 1.02 }}
             >
               <img
                 src={ebookStackImage}
                 alt="Pilha de ebooks best-sellers"
-                className="w-full max-w-md h-auto object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
+                className="w-full max-w-lg mx-auto h-auto object-contain rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.2)]"
                 data-testid="img-ebook-stack"
               />
             </motion.div>
             <motion.div 
-              className="relative"
+              className="relative w-full"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              whileHover={{ scale: 1.03, rotate: -1 }}
+              whileHover={{ scale: 1.02 }}
             >
               <img
                 src={smartphoneImage}
                 alt="Smartphones com interface de ebooks"
-                className="w-full max-w-md h-auto object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
+                className="w-full max-w-lg mx-auto h-auto object-contain rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.2)]"
                 data-testid="img-smartphones"
               />
             </motion.div>
