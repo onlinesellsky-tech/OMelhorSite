@@ -96,7 +96,7 @@ export default function HeroSection() {
               <img
                 src={ebookStackImage}
                 alt="Pilha de ebooks best-sellers"
-                className="w-full max-w-xs sm:max-w-sm rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
+                className="w-full max-w-md h-auto object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
                 data-testid="img-ebook-stack"
               />
             </motion.div>
@@ -110,7 +110,7 @@ export default function HeroSection() {
               <img
                 src={smartphoneImage}
                 alt="Smartphones com interface de ebooks"
-                className="w-full max-w-xs sm:max-w-sm rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
+                className="w-full max-w-md h-auto object-cover rounded-xl shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
                 data-testid="img-smartphones"
               />
             </motion.div>
