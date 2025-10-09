@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Projeto Batata</title>
+    <meta name="description" content="Página de exemplo com HTML, CSS e JavaScript">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🥔 Projeto Batata</h1>
+            <nav>
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Bem-vindo ao Projeto Batata!</h2>
+                <p>Este é um exemplo de página HTML com CSS e JavaScript.</p>
+                <button id="botao-principal" class="btn">Clique Aqui</button>
+                <p id="contador" class="contador">Cliques: 0</p>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <div class="container">
+                <h2>Sobre o Projeto</h2>
+                <div class="cards">
+                    <div class="card">
+                        <h3>📄 HTML</h3>
+                        <p>Estrutura da página</p>
+                    </div>
+                    <div class="card">
+                        <h3>🎨 CSS</h3>
+                        <p>Estilos visuais</p>
+                    </div>
+                    <div class="card">
+                        <h3>⚡ JavaScript</h3>
+                        <p>Interatividade</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <div class="container">
+                <h2>Formulário de Contato</h2>
+                <form id="form-contato">
+                    <input type="text" id="nome" placeholder="Seu nome" required>
+                    <input type="email" id="email" placeholder="Seu email" required>
+                    <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+                <div id="mensagem-sucesso" class="mensagem-sucesso"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Projeto Batata - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
