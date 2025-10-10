@@ -81,13 +81,13 @@ export default function HeroSection() {
           </motion.div>
           
           <motion.div 
-            className="flex-1 flex flex-col items-center justify-center gap-6"
+            className="flex-1 flex flex-col items-center justify-center gap-4"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <motion.div 
-              className="relative w-full"
+              className="relative w-full max-w-xs"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
@@ -96,12 +96,12 @@ export default function HeroSection() {
               <img
                 src={ebookStackImage}
                 alt="Pilha de ebooks best-sellers"
-                className="w-full max-w-lg mx-auto h-auto object-contain rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.2)]"
+                className="w-full h-48 object-cover rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.2)]"
                 data-testid="img-ebook-stack"
               />
             </motion.div>
             <motion.div 
-              className="relative w-full"
+              className="relative w-full max-w-xs"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
@@ -110,7 +110,7 @@ export default function HeroSection() {
               <img
                 src={smartphoneImage}
                 alt="Smartphones com interface de ebooks"
-                className="w-full max-w-lg mx-auto h-auto object-contain rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.2)]"
+                className="w-full h-48 object-cover rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.2)]"
                 data-testid="img-smartphones"
               />
             </motion.div>
