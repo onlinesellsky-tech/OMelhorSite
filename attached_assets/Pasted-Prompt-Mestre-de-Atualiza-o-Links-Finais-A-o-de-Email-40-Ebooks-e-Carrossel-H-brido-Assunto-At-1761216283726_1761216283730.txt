@@ -1,0 +1,40 @@
+Prompt Mestre de Atualização: Links Finais, Ação de Email, 40 Ebooks e Carrossel Híbrido
+Assunto: Atualização Final da Landing Page: Novos Links de Checkout, 40 Ebooks, Captura de Email e Carrossel Híbrido
+
+Olá! Temos um conjunto final de atualizações para esta landing page. Por favor, implemente todas as seguintes mudanças:
+
+1. Atualização dos Links de Checkout (Crítico)
+
+Esta é a prioridade. Os botões de compra na seção de preços devem ser atualizados:
+
+Botão da Oferta Principal (R$ 9,90 ou R$ 10): O botão para a oferta básica (apenas os 40 ebooks) deve apontar para este link: https://pay.kirvano.com/06d39040-379a-4a75-9d3f-be545106e48e
+
+Botão do Pacote Completo (com Upsell de R$ 14,90): O botão para a oferta completa (40 ebooks + 25 audiobooks + planner) deve apontar para este link: https://pay.kirvano.com/b2154357-2826-4813-99f2-e0b20b59a226
+
+2. Atualização Global da Oferta (Textos e Preços)
+
+Conteúdo Principal: Localize e substitua TODAS as menções de "37 ebooks" por "+40 Best-Sellers".
+
+Conteúdo Upsell: Confirme que a oferta de Upsell (o "Pacote Completo") está configurada como: +25 Audiobooks + 1 Planner de Estudos pelo preço adicional de R$ 14,90. O preço total do combo deve ser R$ 24,90.
+
+3. Seção: Captura de E-mail (com Ação)
+
+Adicione a nova seção de captura de e-mail com design moderno e animações (conforme solicitado anteriormente).
+
+Ação do Formulário (Importante): O formulário (<form>) deve ser configurado para enviar os dados (e-mails coletados) para o seguinte endereço: suporte@suabiblioteca.shop.
+
+4. Carrossel de Capas de Livros (Híbrido)
+
+Implemente o carrossel para as capas dos livros.
+
+Comportamento Híbrido:
+
+Auto-Play: O carrossel deve rolar para os lados sozinho (loop suave).
+
+Controle Manual: O auto-play deve pausar quando o usuário interagir. Deve ter suporte a rolagem com os dedos (swipe) e setas de navegação (< e >) no desktop.
+
+Estilo Visual:
+
+Mockups: Estilize as capas como mockups de livros, garantindo que todas fiquem em uma proporção e altura uniformes.
+
+Sombra: Adicione uma box-shadow (sombra) sutil atrás de cada mockup.

@@ -37,7 +37,7 @@ export default function MainOffer() {
                 </h3>
               </motion.div>
               <p className="text-lg text-foreground">
-                Leve agora +35 Ebooks Best-Sellers por um pagamento único de:
+                Leve agora +40 Ebooks Best-Sellers por um pagamento único de:
               </p>
             </CardHeader>
             
@@ -61,7 +61,7 @@ export default function MainOffer() {
                 onClick={handleOfferClick}
                 data-testid="button-offer-main"
               >
-                GARANTIR MEUS 35 EBOOKS AGORA!
+                GARANTIR MEUS 40 EBOOKS AGORA!
               </Button>
               
               <p className="text-sm text-muted-foreground">

@@ -52,7 +52,7 @@ export default function BooksList() {
             <p className="text-lg text-muted-foreground">
               Sua Biblioteca inclui estes títulos transformadores em PDF{" "}
               <span className="text-primary font-semibold">
-                (e 10 audiobooks exclusivos no pacote VIP)
+                (e 25 audiobooks exclusivos no pacote VIP)
               </span>
               :
             </p>

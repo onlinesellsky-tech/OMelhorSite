@@ -36,7 +36,7 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
             >
-              Desbloqueie <span className="font-semibold text-foreground">+35 dos livros</span> mais importantes do mundo,
+              Desbloqueie <span className="font-semibold text-foreground">+40 Best-Sellers</span> mais importantes do mundo,
               no formato ebook, pelo <span className="font-semibold text-primary">preço de um café</span>.
             </motion.p>
             

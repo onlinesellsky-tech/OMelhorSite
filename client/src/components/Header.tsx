@@ -12,7 +12,7 @@ export default function Header() {
             <img src={bookLogo} alt="Mentalidade Elite Logo" className="w-full h-full object-cover" />
           </div>
           <span className="font-heading font-bold text-lg text-foreground">
-            Mentalidade Elite +35 Ebooks
+            Mentalidade Elite +40 Ebooks
           </span>
         </div>
         

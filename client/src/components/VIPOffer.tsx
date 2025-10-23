@@ -42,7 +42,7 @@ export default function VIPOffer() {
                 Quer acelerar seus resultados e aprender de forma completa?
               </h3>
               <p className="text-base sm:text-lg text-foreground">
-                Por apenas mais R$7, leve tudo:
+                Por apenas mais R$14,90, leve tudo:
               </p>
             </CardHeader>
             
@@ -53,14 +53,14 @@ export default function VIPOffer() {
                     <div className="flex items-start gap-3">
                       <Check className="h-6 w-6 text-chart-2 mt-1 flex-shrink-0" />
                       <span className="text-foreground text-sm sm:text-base">
-                        <strong>+35 Ebooks Best-Sellers</strong>
+                        <strong>+40 Ebooks Best-Sellers</strong>
                       </span>
                     </div>
                     <div className="flex items-start gap-3">
                       <Check className="h-6 w-6 text-chart-2 mt-1 flex-shrink-0" />
                       <div className="flex-1">
                         <span className="text-foreground text-sm sm:text-base">
-                          <strong>+10 Audiobooks Exclusivos:</strong>
+                          <strong>+25 Audiobooks Exclusivos:</strong>
                         </span>
                         <p className="text-muted-foreground text-sm sm:text-base">
                           Aprenda em qualquer lugar, otimizando seu tempo.
@@ -90,7 +90,7 @@ export default function VIPOffer() {
                         animate={{ scale: [1, 1.08, 1] }}
                         transition={{ duration: 2, repeat: Infinity }}
                       >
-                        R$ 17
+                        R$ 24,90
                       </motion.p>
                     </div>
                     
@@ -100,7 +100,7 @@ export default function VIPOffer() {
                       onClick={handleVIPClick}
                       data-testid="button-vip-offer"
                     >
-                      QUERO O PACOTE COMPLETO POR R$17!
+                      QUERO O PACOTE COMPLETO POR R$24,90!
                     </Button>
                     
                     <p className="text-sm text-primary font-semibold text-center">

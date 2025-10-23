@@ -34,7 +34,7 @@ export default function FinalCTA() {
               
               <CardContent className="text-center space-y-6">
                 <div className="space-y-2">
-                  <p className="text-foreground">+35 Ebooks</p>
+                  <p className="text-foreground">+40 Ebooks</p>
                   <p className="text-muted-foreground">Acesso Vitalício</p>
                   <p className="text-3xl sm:text-4xl font-bold text-primary">R$ 10</p>
                 </div>
@@ -72,8 +72,8 @@ export default function FinalCTA() {
               
               <CardContent className="text-center space-y-6">
                 <div className="space-y-2">
-                  <p className="text-foreground">+35 Ebooks</p>
-                  <p className="text-foreground">+10 Audiobooks</p>
+                  <p className="text-foreground">+40 Ebooks</p>
+                  <p className="text-foreground">+25 Audiobooks</p>
                   <p className="text-foreground">+Planner de Estudo</p>
                   <p className="text-muted-foreground">Acesso Vitalício</p>
                   <motion.p 
@@ -81,7 +81,7 @@ export default function FinalCTA() {
                     animate={{ scale: [1, 1.05, 1] }}
                     transition={{ duration: 2, repeat: Infinity }}
                   >
-                    R$ 17
+                    R$ 24,90
                   </motion.p>
                 </div>
                 
