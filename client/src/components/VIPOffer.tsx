@@ -7,7 +7,7 @@ import vipDevicesImage from "@assets/generated_images/VIP_package_devices_mockup
 
 export default function VIPOffer() {
   const handleVIPClick = () => {
-    console.log('VIP Offer clicked - R$17');
+    window.location.href = 'https://pay.kirvano.com/b2154357-2826-4813-99f2-e0b20b59a226';
   };
 
   return (

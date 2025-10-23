@@ -6,7 +6,6 @@ import smartphoneImage from "@assets/Gemini_Generated_Image_n61ioln61ioln61i_176
 
 export default function HeroSection() {
   const handleCTAClick = () => {
-    console.log('CTA Principal clicked - R$10');
     document.getElementById('offer-section')?.scrollIntoView({ behavior: 'smooth' });
   };
 

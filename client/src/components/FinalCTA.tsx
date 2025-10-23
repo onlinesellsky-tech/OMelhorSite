@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 
 export default function FinalCTA() {
   const handleEssentialClick = () => {
-    console.log('Pacote Essencial clicked - R$10');
+    window.location.href = 'https://pay.kirvano.com/06d39040-379a-4a75-9d3f-be545106e48e';
   };
 
   const handleVIPClick = () => {
-    console.log('Pacote VIP clicked - R$17');
+    window.location.href = 'https://pay.kirvano.com/b2154357-2826-4813-99f2-e0b20b59a226';
   };
 
   return (

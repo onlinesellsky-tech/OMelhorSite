@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export default function MainOffer() {
   const handleOfferClick = () => {
-    console.log('Oferta Principal clicked - R$10');
+    window.location.href = 'https://pay.kirvano.com/06d39040-379a-4a75-9d3f-be545106e48e';
   };
 
   return (
