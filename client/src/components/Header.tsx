@@ -9,10 +9,10 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 rounded-md overflow-hidden">
-            <img src={bookLogo} alt="Livroteca Logo" className="w-full h-full object-cover" />
+            <img src={bookLogo} alt="Mentalidade Elite Logo" className="w-full h-full object-cover" />
           </div>
           <span className="font-heading font-bold text-lg text-foreground">
-            Sua Biblioteca +35 Ebooks
+            Mentalidade Elite +35 Ebooks
           </span>
         </div>
         

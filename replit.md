@@ -1,8 +1,8 @@
-# Livroteca Landing Page
+# Mentalidade Elite Landing Page
 
 ## Overview
 
-Livroteca is a high-conversion landing page designed to sell a digital collection of +35 best-selling ebooks and an optional VIP package with +20 audiobooks and a planner. The project is built as a modern React-based landing page with a focus on conversion optimization, featuring clean design principles, strategic color usage, and smooth scroll animations to create a premium user experience.
+Mentalidade Elite is a high-conversion landing page designed to sell a digital collection of +35 best-selling ebooks and an optional VIP package with +20 audiobooks and a planner. The project is built as a modern React-based landing page with a focus on conversion optimization, featuring clean design principles, strategic color usage, and smooth scroll animations to create a premium user experience.
 
 The application targets individuals seeking personal and professional development through curated content from world-renowned authors covering topics like finance, productivity, habits, and business strategy. The pricing strategy includes a primary offer at R$10 for ebooks and an upsell VIP package at R$17 for the complete experience.
 
@@ -16,7 +16,7 @@ Preferred communication style: Simple, everyday language.
 - **Framework**: React 18 with TypeScript for type safety and modern development practices
 - **Routing**: Wouter for lightweight client-side routing
 - **UI Components**: shadcn/ui component library built on Radix UI primitives for accessibility and consistency
-- **Styling**: Tailwind CSS with custom design system implementing the Livroteca brand colors and spacing
+- **Styling**: Tailwind CSS with custom design system implementing the Mentalidade Elite brand colors and spacing
 - **State Management**: TanStack Query for server state management and React hooks for local state
 - **Animations**: Framer Motion for scroll-triggered animations and smooth page transitions
 - **Build Tool**: Vite for fast development and optimized production builds
