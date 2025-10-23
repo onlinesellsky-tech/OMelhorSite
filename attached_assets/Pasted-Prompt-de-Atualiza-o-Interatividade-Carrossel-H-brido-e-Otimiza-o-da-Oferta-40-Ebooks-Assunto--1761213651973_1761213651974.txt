@@ -1,0 +1,58 @@
+Prompt de Atualização: Interatividade, Carrossel Híbrido e Otimização da Oferta (40 Ebooks)
+Assunto: Atualização Crítica da Landing Page: Nova Oferta (40 Ebooks), Captura de Email Animada e Carrossel Híbrido.
+
+Olá! Preciso de um conjunto de atualizações importantes para esta landing page, focando em interatividade, conversão e na nova oferta.
+
+Por favor, implemente as seguintes mudanças:
+
+1. Atualização Global da Oferta (Conteúdo e Preço)
+
+Produto Principal: Localize e substitua TODAS as menções de "37 ebooks" por "+40 Best-Sellers" (ou "40 Ebooks", o que for mais natural). Isso inclui headlines, listas de valor e qualquer texto que mencione o número antigo.
+
+Produto Upsell: Confirme que a oferta de Upsell (o "Pacote Completo") está configurada como: +25 Audiobooks + 1 Planner de Estudos pelo preço adicional de R$ 14,90.
+
+O preço total do combo (Principal + Upsell) deve ser R$ 24,90 (R$ 10 do principal + R$ 14,90 do upsell).
+
+2. Nova Seção: Captura de E-mail Moderna e Animada
+
+Adicione uma nova seção de captura de e-mail (provavelmente entre a Hero Section e a seção de benefícios).
+
+Design: Deve ser um design limpo, moderno e "vivo", e não uma caixa de formulário padrão.
+
+Animação: Utilize micro-animações. Por exemplo:
+
+Quando o usuário clica no campo, o "label" (ex: "Seu melhor e-mail") deve flutuar para cima da linha, em vez de desaparecer.
+
+O botão de envio deve ter uma animação de hover satisfatória (ex: leve scale ou mudança de cor suave).
+
+Chamada (Texto): Utilize um texto como: "Receba uma Amostra Grátis" ou "Entre para a Lista VIP e Desbloqueie um Bônus".
+
+3. Novo Carrossel de Capas de Livros (Híbrido)
+
+Implemente um carrossel (scroll) para as capas dos livros que vou enviar.
+
+Comportamento Híbrido (Importante):
+
+Auto-Play: O carrossel deve rolar para os lados sozinho, em um loop suave e contínuo.
+
+Controle Manual: O usuário deve poder controlar a rolagem. O auto-play deve pausar quando o usuário interagir.
+
+Mobile/Tablet: Deve ter suporte total a rolagem com os dedos (swipe).
+
+Desktop: Adicione setas de navegação visíveis (< e >) em cada lado.
+
+Visual e Estilo (Importante):
+
+Mockups: Use CSS para estilizar as imagens das capas como mockups de livros, garantindo que todos fiquem em uma proporção e altura uniformes, mesmo que as imagens originais variem um pouco.
+
+Sombra: Adicione uma box-shadow (sombra) sutil atrás de cada mockup de livro para criar um efeito de profundidade e destacá-los do fundo.
+
+Resumo da Tarefa:
+
+Atualizar todos os textos de "37" para "40".
+
+Confirmar o upsell de R$ 14,90.
+
+Adicionar uma caixa de captura de e-mail animada.
+
+Criar o carrossel de capas com mockups uniformes, sombra, auto-play e controle manual (setas + swipe).
