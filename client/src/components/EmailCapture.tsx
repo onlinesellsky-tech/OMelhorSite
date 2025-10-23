@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Mail, Sparkles } from "lucide-react";
+import { Mail, Sparkles, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 
@@ -28,7 +28,7 @@ export default function EmailCapture() {
 
       if (response.ok) {
         toast({
-          title: "Sucesso! 🎉",
+          title: "Sucesso!",
           description: "Em breve você receberá sua amostra grátis no email.",
         });
         setEmail("");
@@ -130,9 +130,10 @@ export default function EmailCapture() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            className="text-center text-xs text-muted-foreground mt-3"
+            className="text-center text-xs text-muted-foreground mt-3 flex items-center justify-center gap-1"
           >
-            🔒 Seus dados estão seguros. Sem spam, apenas conteúdo de valor.
+            <Lock className="h-3 w-3" />
+            Seus dados estão seguros. Sem spam, apenas conteúdo de valor.
           </motion.p>
         </motion.form>
       </div>
