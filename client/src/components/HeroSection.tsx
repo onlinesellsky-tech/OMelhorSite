@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import mentalidadeEliteLogo from "@assets/Gemini_Generated_Image_7b91cd7b91cd7b91_1761315968475.png";
+import mentalidadeEliteLogo from "@assets/Fiquei com um pé atrás pelo preço, achei que seria algo incompleto. Mas arrisquei. Foi o melhor investimento de R$ 14,90 que já fiz na vida! Os livros são completos, a qualidade é perfeita e a sel (1)_1761341396141.jpg";
 
 export default function HeroSection() {
   const handleCTAClick = () => {
