@@ -1,8 +1,7 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import ebookStackImage from "@assets/Gemini_Generated_Image_c1wtyc1wtyc1wtyc_1760038467597.png";
-import smartphoneImage from "@assets/Gemini_Generated_Image_n61ioln61ioln61i_1760038467596.png";
+import mentalidadeEliteLogo from "@assets/Gemini_Generated_Image_7b91cd7b91cd7b91_1761315968475.png";
 
 export default function HeroSection() {
   const handleCTAClick = () => {
@@ -80,37 +79,23 @@ export default function HeroSection() {
           </motion.div>
           
           <motion.div 
-            className="flex-1 flex flex-col items-center justify-center gap-4"
-            initial={{ opacity: 0, x: 50 }}
-            animate={{ opacity: 1, x: 0 }}
+            className="flex-1 flex items-center justify-center"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <motion.div 
-              className="relative w-full max-w-xs"
+              className="relative w-full max-w-md"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              whileHover={{ scale: 1.02 }}
+              whileHover={{ scale: 1.05 }}
             >
               <img
-                src={ebookStackImage}
-                alt="Pilha de ebooks best-sellers"
-                className="w-full h-48 object-cover rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.2)]"
-                data-testid="img-ebook-stack"
-              />
-            </motion.div>
-            <motion.div 
-              className="relative w-full max-w-xs"
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.8, delay: 0.5 }}
-              whileHover={{ scale: 1.02 }}
-            >
-              <img
-                src={smartphoneImage}
-                alt="Smartphones com interface de ebooks"
-                className="w-full h-48 object-cover rounded-2xl shadow-[0_8px_30px_rgba(0,0,0,0.2)]"
-                data-testid="img-smartphones"
+                src={mentalidadeEliteLogo}
+                alt="Mentalidade Elite - Logo"
+                className="w-full object-contain"
+                data-testid="img-mentalidade-elite-logo"
               />
             </motion.div>
           </motion.div>
