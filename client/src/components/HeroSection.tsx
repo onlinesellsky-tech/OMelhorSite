@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import mentalidadeEliteLogo from "@assets/Fiquei com um pé atrás pelo preço, achei que seria algo incompleto. Mas arrisquei. Foi o melhor investimento de R$ 14,90 que já fiz na vida! Os livros são completos, a qualidade é perfeita e a sel (1)_1761341396141.jpg";
+import mentalidadeEliteLogo from "@assets/Fiquei com um pé atrás pelo preço, achei que seria algo incompleto. Mas arrisquei. Foi o melhor investimento de R$ 14,90 que já fiz na vida! Os livros são completos, a qualidade é perfeita e a sel_1761343225106.png";
 
 export default function HeroSection() {
   const handleCTAClick = () => {
