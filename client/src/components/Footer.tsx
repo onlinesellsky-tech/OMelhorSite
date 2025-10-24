@@ -23,11 +23,11 @@ export default function Footer() {
             <div className="flex items-center gap-2 text-muted-foreground">
               <Mail className="h-4 w-4" />
               <a 
-                href="mailto:suporte@mentalidadeelite.com" 
+                href="mailto:suporte@suabiblioteca.shop" 
                 className="hover:text-foreground transition-colors"
                 data-testid="link-support-email"
               >
-                suporte@mentalidadeelite.com
+                suporte@suabiblioteca.shop
               </a>
             </div>
           </div>
