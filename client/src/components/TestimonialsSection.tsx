@@ -1,5 +1,5 @@
 import ScrollAnimation from "./ScrollAnimation";
-import testimonialsImage from "@assets/Fiquei com um pé atrás pelo preço, achei que seria algo incompleto. Mas arrisquei. Foi o melhor investimento de R$ 14,90 que já fiz na vida! Os livros são completos, a qualidade é perfeita e a sel_1761315986917.jpg";
+import testimonialsImage from "@assets/Fiquei com um pé atrás pelo preço, achei que seria algo incompleto. Mas arrisquei. Foi o melhor investimento de R$ 14,90 que já fiz na vida! Os livros são completos, a qualidade é perfeita e a sel_1761341299690.jpg";
 
 export default function TestimonialsSection() {
   return (
