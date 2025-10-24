@@ -4,6 +4,27 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
+import cover1 from "@assets/2_1761314026453.jpg";
+import cover2 from "@assets/3c3722fb-8fe4-474d-aacb-cd432e8b25a9_1761314026457.png";
+import cover3 from "@assets/61Rlw3cPpsL._UF1000,1000_QL80__1761314026458.jpg";
+import cover4 from "@assets/61rRRbfINJL._UF1000,1000_QL80__1761314026459.jpg";
+import cover5 from "@assets/71f9R8hY23L_1761314026459.jpg";
+import cover6 from "@assets/71tYBWz6VEL._UF1000,1000_QL80__1761314026460.jpg";
+import cover7 from "@assets/71uFdKI9jtL._UF894,1000_QL80__1761314026461.jpg";
+import cover8 from "@assets/71V4lNR2gKL_1761314026461.jpg";
+import cover9 from "@assets/71XoEZS6W+L._UF1000,1000_QL80__1761314026462.jpg";
+import cover10 from "@assets/91kurpsVErL._UF894,1000_QL80__1761314026462.jpg";
+import cover11 from "@assets/b7b6433b-5054-4314-967a-488d65a165d7_1761314026463.png";
+import cover12 from "@assets/c9c8fa6ea8e8dde41cc3a21639c6d0ba_1761314026464.webp";
+import cover13 from "@assets/e02189c4-e0bd-46c4-b8ba-8320b3d029a9_1761314026464.png";
+import cover14 from "@assets/eb1311b5bf058ff829d2d7037bacb429_1761314026465.webp";
+import cover15 from "@assets/images (1)_1761314026465.jpg";
+import cover16 from "@assets/images (4)_1761314026466.jpg";
+import cover17 from "@assets/images (5)_1761314026466.jpg";
+import cover18 from "@assets/images_1761314026467.jpg";
+import cover19 from "@assets/OIP (1)_1761314026468.jpg";
+import cover20 from "@assets/OIP (1)_1761314026468.webp";
+
 export default function BookCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ 
     loop: true, 
@@ -38,54 +59,104 @@ export default function BookCarousel() {
 
   const bookCovers = [
     {
-      title: "Hábitos Atômicos",
-      author: "James Clear",
-      color: "from-blue-500 to-blue-700"
-    },
-    {
-      title: "Pai Rico, Pai Pobre",
-      author: "Robert Kiyosaki",
-      color: "from-purple-500 to-purple-700"
-    },
-    {
-      title: "O Poder do Hábito",
-      author: "Charles Duhigg",
-      color: "from-green-500 to-green-700"
-    },
-    {
-      title: "Mindset",
-      author: "Carol Dweck",
-      color: "from-red-500 to-red-700"
-    },
-    {
-      title: "Essencialismo",
-      author: "Greg McKeown",
-      color: "from-yellow-500 to-yellow-700"
-    },
-    {
-      title: "A Única Coisa",
-      author: "Gary Keller",
-      color: "from-indigo-500 to-indigo-700"
-    },
-    {
-      title: "Antifrágil",
-      author: "Nassim Taleb",
-      color: "from-pink-500 to-pink-700"
-    },
-    {
-      title: "Foco",
-      author: "Daniel Goleman",
-      color: "from-teal-500 to-teal-700"
+      title: "O Obstáculo é o Caminho",
+      author: "Ryan Holiday",
+      image: cover1
     },
     {
       title: "O Ego é Seu Inimigo",
       author: "Ryan Holiday",
-      color: "from-orange-500 to-orange-700"
+      image: cover2
+    },
+    {
+      title: "Disciplina é Destino",
+      author: "Ryan Holiday",
+      image: cover3
+    },
+    {
+      title: "A Coragem de Ser Imperfeito",
+      author: "Brené Brown",
+      image: cover4
+    },
+    {
+      title: "Inteligência Emocional",
+      author: "Daniel Goleman",
+      image: cover5
+    },
+    {
+      title: "Essencialismo",
+      author: "Greg McKeown",
+      image: cover6
+    },
+    {
+      title: "Foco",
+      author: "Daniel Goleman",
+      image: cover7
+    },
+    {
+      title: "Pai Rico, Pai Pobre",
+      author: "Robert Kiyosaki",
+      image: cover8
+    },
+    {
+      title: "A Lógica do Cisne Negro",
+      author: "Nassim Taleb",
+      image: cover9
+    },
+    {
+      title: "A Lei do Triunfo",
+      author: "Napoleon Hill",
+      image: cover10
+    },
+    {
+      title: "Mais Rápido e Melhor",
+      author: "Charles Duhigg",
+      image: cover11
+    },
+    {
+      title: "Rápido e Devagar",
+      author: "Daniel Kahneman",
+      image: cover12
+    },
+    {
+      title: "O Jogo Interior de Tênis",
+      author: "W. Timothy Gallwey",
+      image: cover13
+    },
+    {
+      title: "O Milagre da Manhã",
+      author: "Hal Elrod",
+      image: cover14
+    },
+    {
+      title: "O Poder do Agora",
+      author: "Eckhart Tolle",
+      image: cover15
+    },
+    {
+      title: "Desperte Seu Gigante Interior",
+      author: "Anthony Robbins",
+      image: cover16
+    },
+    {
+      title: "Poder Sem Limites",
+      author: "Anthony Robbins",
+      image: cover17
+    },
+    {
+      title: "Os Segredos da Mente Milionária",
+      author: "T. Harv Eker",
+      image: cover18
     },
     {
       title: "Quem Pensa Enriquece",
       author: "Napoleon Hill",
-      color: "from-cyan-500 to-cyan-700"
+      image: cover19
+    },
+    {
+      title: "Mindset",
+      author: "Carol Dweck",
+      image: cover20
     }
   ];
 
@@ -128,22 +199,18 @@ export default function BookCarousel() {
                   whileHover={{ scale: 1.05 }}
                 >
                   <div 
-                    className={`relative w-full aspect-[2/3] bg-gradient-to-br ${book.color} rounded-lg shadow-[0_10px_30px_rgba(0,0,0,0.3)] overflow-hidden transition-all duration-300 hover:shadow-[0_15px_40px_rgba(0,0,0,0.4)]`}
+                    className="relative w-full aspect-[2/3] rounded-lg shadow-[0_10px_30px_rgba(0,0,0,0.3)] overflow-hidden transition-all duration-300 hover:shadow-[0_15px_40px_rgba(0,0,0,0.4)]"
                     data-testid={`book-cover-${index}`}
                   >
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
-                    
-                    <div className="absolute inset-0 p-4 flex flex-col justify-end">
-                      <h3 className="text-white font-heading font-bold text-base sm:text-lg md:text-xl mb-1 leading-tight">
-                        {book.title}
-                      </h3>
-                      <p className="text-white/90 text-xs sm:text-sm">
-                        {book.author}
-                      </p>
-                    </div>
+                    <img
+                      src={book.image}
+                      alt={`Capa do livro ${book.title}`}
+                      className="w-full h-full object-cover"
+                      loading="lazy"
+                    />
 
-                    <div className="absolute top-2 right-2 bg-white/20 backdrop-blur-sm rounded-full px-2 py-1">
-                      <span className="text-white text-xs font-semibold">EBOOK</span>
+                    <div className="absolute top-2 right-2 bg-primary/90 backdrop-blur-sm rounded-full px-2 py-1">
+                      <span className="text-primary-foreground text-xs font-semibold">EBOOK</span>
                     </div>
                   </div>
                 </motion.div>
