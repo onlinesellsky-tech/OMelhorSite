@@ -64,7 +64,7 @@ export default function BooksList() {
         
         <StaggeredAnimation
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4"
-          staggerDelay={0.05}
+          staggerDelay={0.02}
         >
           {books.map((book, index) => (
             <StaggeredItem key={index}>

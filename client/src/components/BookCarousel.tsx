@@ -194,7 +194,7 @@ export default function BookCarousel() {
                   className="flex-[0_0_200px] sm:flex-[0_0_250px] md:flex-[0_0_280px]"
                   initial={{ opacity: 0, scale: 0.9 }}
                   whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  transition={{ duration: 0.3, delay: index * 0.03 }}
                   viewport={{ once: true }}
                   whileHover={{ scale: 1.05 }}
                 >
