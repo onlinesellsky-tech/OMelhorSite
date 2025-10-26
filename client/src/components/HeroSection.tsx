@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import mentalidadeEliteLogo from "@assets/Fiquei com um pé atrás pelo preço, achei que seria algo incompleto. Mas arrisquei. Foi o melhor investimento de R$ 14,90 que já fiz na vida! Os livros são completos, a qualidade é perfeita e a sel_1761343225106.png";
+import mentalidadeEliteLogo from "@assets/generated_images/Laptop_mockup_with_ebook_library_31980be8.png";
 
 export default function HeroSection() {
   const handleCTAClick = () => {
@@ -93,7 +93,7 @@ export default function HeroSection() {
             >
               <img
                 src={mentalidadeEliteLogo}
-                alt="Mentalidade Elite - Logo"
+                alt="Biblioteca de ebooks em notebook"
                 className="w-full object-contain"
                 data-testid="img-mentalidade-elite-logo"
               />
