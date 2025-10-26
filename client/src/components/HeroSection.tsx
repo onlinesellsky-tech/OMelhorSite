@@ -1,7 +1,7 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import mentalidadeEliteLogo from "@assets/generated_images/Laptop_mockup_with_ebook_library_31980be8.png";
+import mentalidadeEliteLogo from "@assets/Design sem nome (8)_1761517134035.png";
 
 export default function HeroSection() {
   const handleCTAClick = () => {
@@ -85,7 +85,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, ease: "easeOut" }}
           >
             <motion.div 
-              className="relative w-full max-w-md"
+              className="relative w-full max-w-4xl"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
