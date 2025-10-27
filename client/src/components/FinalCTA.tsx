@@ -46,7 +46,7 @@ export default function FinalCTA() {
                   onClick={handleEssentialClick}
                   data-testid="button-essential-package"
                 >
-                  QUERO SÓ OS EBOOKS
+                  SIM! QUERO DESBLOQUEAR MINHA BIBLIOTECA POR R$10
                 </Button>
               </CardContent>
             </Card>

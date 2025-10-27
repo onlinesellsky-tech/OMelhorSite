@@ -12,6 +12,8 @@ import Guarantee from "@/components/Guarantee";
 import FinalCTA from "@/components/FinalCTA";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
+import ValueAnchor from "@/components/ValueAnchor";
+import SocialProofNotification from "@/components/SocialProofNotification";
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
       <Header />
       <main>
         <HeroSection />
+        <ValueAnchor />
         <EmailCapture />
         <ValueSection />
         <BookCarousel />
@@ -32,6 +35,7 @@ export default function Home() {
         <FAQ />
       </main>
       <Footer />
+      <SocialProofNotification />
     </div>
   );
 }

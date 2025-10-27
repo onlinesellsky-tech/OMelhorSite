@@ -2,6 +2,7 @@ import { Gift } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import ScrollAnimation from "./ScrollAnimation";
+import CountdownTimer from "./CountdownTimer";
 import { motion } from "framer-motion";
 
 export default function MainOffer() {
@@ -11,7 +12,11 @@ export default function MainOffer() {
 
   return (
     <section id="offer-section" className="w-full bg-background py-12 px-4">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto space-y-4">
+        <div className="flex justify-center">
+          <CountdownTimer />
+        </div>
+        
         <ScrollAnimation>
           <Card className="border border-card-border shadow-lg relative overflow-hidden">
             <motion.div
@@ -61,7 +66,7 @@ export default function MainOffer() {
                 onClick={handleOfferClick}
                 data-testid="button-offer-main"
               >
-                GARANTIR MEUS 40 EBOOKS AGORA!
+                SIM! QUERO DESBLOQUEAR MINHA BIBLIOTECA POR APENAS R$10
               </Button>
               
               <p className="text-sm text-muted-foreground">

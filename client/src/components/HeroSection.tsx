@@ -49,7 +49,7 @@ export default function HeroSection() {
                 onClick={handleCTAClick}
                 data-testid="button-cta-hero"
               >
-                QUERO MEU ACESSO IMEDIATO A R$10
+                SIM! QUERO DESBLOQUEAR MINHA BIBLIOTECA POR APENAS R$10
               </Button>
             </motion.div>
             
