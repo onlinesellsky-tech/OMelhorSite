@@ -1,0 +1,100 @@
+📝 Prompt de Correção e Melhoria de Conteúdo para o Site
+Objetivo: Corrigir bugs de UI e atualizar a lista de livros com autores e um novo título, mantendo a ordem alfabética.
+
+Instruções Técnicas (UI/Design):
+
+Correção de Layout (Bugs de Texto): Corrigir todos os bugs de overflow onde textos maiores estão vazando dos seus respectivos botões, caixas ou elementos de interface. O texto deve se ajustar ou ser truncado de forma legível dentro do seu container.
+
+Responsividade: Garantir que o site não quebre em resoluções de tela menores (móvel).
+
+Instruções de Conteúdo (Lista de Livros):
+
+Atualização da Lista: Incluir o novo livro "As 48 Leis do Poder" e adicionar o nome do autor ao lado de cada título da biblioteca.
+
+Formato: O formato deve ser "Título do Livro - Autor".
+
+Ordenação: A lista final (com 41 livros) deve ser colocada em ordem alfabética.
+
+Nova Lista de Livros (com Autores e em Ordem Alfabética):
+
+A Arte da Guerra - Sun Tzu
+
+A Coragem de Ser Imperfeito - Brené Brown
+
+A Lei do Triunfo - Napoleon Hill
+
+A Lógica do Cisne Negro - Nassim Nicholas Taleb
+
+A Psicologia do Dinheiro - Morgan Housel
+
+A Sutil Arte de Ligar o F*da-Se - Mark Manson
+
+A Startup Enxuta - Eric Ries
+
+A Única Coisa - Gary Keller
+
+Ansiedade - Augusto Cury
+
+Antifrágil - Nassim Nicholas Taleb
+
+As 48 Leis do Poder - Robert Greene
+
+As Armas da Persuasão - Robert Cialdini
+
+Comunicação Não-Violenta - Marshall Rosenberg
+
+Como Fazer Amigos e Influenciar Pessoas - Dale Carnegie
+
+Desperte o Gigante Interior - Tony Robbins
+
+Disciplina é Destino - Ryan Holiday
+
+Essencialismo - Greg McKeown
+
+Foco - Daniel Goleman
+
+Hábitos Atômicos - James Clear
+
+Ikigai - Francesc Miralles e Héctor García
+
+Inteligência Emocional - Daniel Goleman
+
+Mais Esperto que o Diabo - Napoleon Hill
+
+Mais Rápido e Melhor - Charles Duhigg
+
+Meditações - Marco Aurélio
+
+Mindset - Carol S. Dweck
+
+O Homem Mais Rico da Babilônia - George S. Clason
+
+O Investidor Inteligente - Benjamin Graham
+
+O Jogo Interior de Tênis - W. Timothy Gallwey
+
+O Milagre da Manhã - Hal Elrod
+
+O Monge e o Executivo - James C. Hunter
+
+O Obstáculo é o Caminho - Ryan Holiday
+
+O Poder do Agora - Eckhart Tolle
+
+O Poder do Hábito - Charles Duhigg
+
+O Jeito Harvard de Ser Feliz - Shawn Achor
+
+Os 7 Hábitos das Pessoas Altamente Eficazes - Stephen Covey
+
+Os Segredos da Mente Milionária - T. Harv Eker
+
+Pai Rico, Pai Pobre - Robert Kiyosaki
+
+Poder Sem Limites - Tony Robbins
+
+Quem Pensa Enriquece - Napoleon Hill
+
+Rápido e Devagar - Daniel Kahneman
+
+Trabalhe 4 Horas por Semana - Timothy Ferriss

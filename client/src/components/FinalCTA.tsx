@@ -42,7 +42,7 @@ export default function FinalCTA() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="w-full font-bold text-sm sm:text-base lg:text-lg py-3 transition-all duration-300 hover:scale-105"
+                  className="w-full font-bold text-xs sm:text-sm lg:text-base py-3 px-2 sm:px-4 transition-all duration-300 hover:scale-105 leading-tight"
                   onClick={handleEssentialClick}
                   data-testid="button-essential-package"
                 >

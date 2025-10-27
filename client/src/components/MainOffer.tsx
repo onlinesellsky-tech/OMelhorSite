@@ -62,7 +62,7 @@ export default function MainOffer() {
               
               <Button
                 size="lg"
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-4 rounded-lg shadow-md transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-4 px-4 rounded-lg shadow-md transition-all duration-300 hover:scale-105 hover:shadow-xl text-sm sm:text-base leading-tight"
                 onClick={handleOfferClick}
                 data-testid="button-offer-main"
               >
