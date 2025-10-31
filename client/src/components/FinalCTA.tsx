@@ -42,7 +42,7 @@ export default function FinalCTA() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="w-full font-bold text-xs sm:text-sm lg:text-base py-3 px-2 sm:px-4 transition-all duration-300 hover:scale-105 leading-tight"
+                  className="w-full font-bold text-xs sm:text-sm md:text-base py-3 px-2 sm:px-4 md:px-6 transition-all duration-300 hover:scale-105 leading-tight whitespace-normal h-auto min-h-[3rem]"
                   onClick={handleEssentialClick}
                   data-testid="button-essential-package"
                 >
@@ -87,7 +87,7 @@ export default function FinalCTA() {
                 
                 <Button
                   size="lg"
-                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-sm sm:text-base lg:text-lg py-3 transition-all duration-300 hover:scale-105 hover:shadow-xl"
+                  className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs sm:text-sm md:text-base lg:text-lg py-3 px-3 sm:px-4 md:px-6 transition-all duration-300 hover:scale-105 hover:shadow-xl whitespace-normal h-auto min-h-[3rem]"
                   onClick={handleVIPClick}
                   data-testid="button-vip-package"
                 >

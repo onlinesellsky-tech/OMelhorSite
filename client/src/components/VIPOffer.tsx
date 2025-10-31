@@ -96,7 +96,7 @@ export default function VIPOffer() {
                     
                     <Button
                       size="lg"
-                      className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs sm:text-sm lg:text-base py-4 px-3 rounded-lg shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl leading-tight"
+                      className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs sm:text-sm md:text-base py-4 px-3 sm:px-4 md:px-6 rounded-lg shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-xl leading-tight whitespace-normal h-auto min-h-[3rem]"
                       onClick={handleVIPClick}
                       data-testid="button-vip-offer"
                     >

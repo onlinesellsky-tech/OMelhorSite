@@ -45,7 +45,7 @@ export default function HeroSection() {
             >
               <Button
                 size="lg"
-                className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-sm sm:text-base lg:text-lg px-4 sm:px-8 py-4 rounded-lg shadow-md mb-6 transition-all duration-300 hover:scale-105 hover:shadow-xl leading-tight"
+                className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs sm:text-sm md:text-base lg:text-lg px-3 sm:px-6 md:px-8 py-4 rounded-lg shadow-md mb-6 transition-all duration-300 hover:scale-105 hover:shadow-xl leading-tight whitespace-normal h-auto min-h-[3rem]"
                 onClick={handleCTAClick}
                 data-testid="button-cta-hero"
               >
