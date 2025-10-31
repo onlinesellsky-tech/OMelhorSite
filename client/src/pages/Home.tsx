@@ -1,6 +1,5 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import EmailCapture from "@/components/EmailCapture";
 import ValueSection from "@/components/ValueSection";
 import TargetAudienceSection from "@/components/TargetAudienceSection";
 import MainOffer from "@/components/MainOffer";
@@ -22,7 +21,6 @@ export default function Home() {
       <main>
         <HeroSection />
         <ValueAnchor />
-        <EmailCapture />
         <ValueSection />
         <BookCarousel />
         <TargetAudienceSection />
