@@ -207,6 +207,8 @@ export default function BookCarousel() {
                       alt={`Capa do livro ${book.title}`}
                       className="w-full h-full object-cover"
                       loading="lazy"
+                      width="280"
+                      height="420"
                     />
 
                     <div className="absolute top-2 right-2 bg-primary/90 backdrop-blur-sm rounded-full px-2 py-1">

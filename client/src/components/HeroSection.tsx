@@ -95,6 +95,8 @@ export default function HeroSection() {
                 src={mentalidadeEliteLogo}
                 alt="Biblioteca de ebooks em notebook"
                 className="w-full object-contain"
+                width="800"
+                height="600"
                 data-testid="img-mentalidade-elite-logo"
               />
             </motion.div>

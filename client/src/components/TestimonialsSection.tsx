@@ -11,6 +11,9 @@ export default function TestimonialsSection() {
               src={testimonialsImage}
               alt="Depoimentos de clientes satisfeitos"
               className="w-full max-w-4xl mx-auto rounded-xl shadow-2xl mb-8"
+              loading="lazy"
+              width="1024"
+              height="768"
               data-testid="img-testimonials-section"
             />
           </div>

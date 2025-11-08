@@ -118,6 +118,9 @@ export default function VIPOffer() {
                     src={vipDevicesImage}
                     alt="Tablet, smartphone e fones - Pacote VIP"
                     className="w-full max-w-md rounded-lg shadow-lg"
+                    loading="lazy"
+                    width="600"
+                    height="500"
                     data-testid="img-vip-devices"
                   />
                 </motion.div>

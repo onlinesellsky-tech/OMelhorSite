@@ -1,0 +1,40 @@
+Prompt para a IA do Replit (Copie e Cole)
+Olá. Preciso otimizar a performance do meu site (o código neste Replit) para que ele carregue o mais rápido possível.
+
+Por favor, revise todos os meus arquivos (HTML, CSS e JavaScript) e aplique as seguintes especificações técnicas de otimização de "Core Web Vitals":
+
+Otimização de Imagens:
+
+Revise todas as tags <img>. Adicione o atributo loading="lazy" a todas as imagens que não estão no topo visível da página (não estão "acima da dobra").
+
+Verifique se todas as imagens possuem os atributos width (largura) e height (altura) explícitos para evitar "Layout Shift" (CLS). Se não tiverem, adicione-os com base no tamanho real do arquivo.
+
+Otimização de JavaScript (JS):
+
+Revise todas as tags <script> nos arquivos HTML.
+
+Adicione o atributo defer a todos os arquivos JavaScript que não são absolutamente críticos para a primeira renderização. O objetivo é não bloquear a exibição do conteúdo.
+
+Se houver scripts de terceiros (como Google Analytics ou pixels), garanta que eles também usem defer ou async.
+
+Minificação de Código:
+
+Pegue todo o meu código CSS e crie uma versão minificada (ex: style.min.css).
+
+Pegue todo o meu código JavaScript e crie uma versão minificada (ex: app.min.js).
+
+Atualize os arquivos HTML para carregar essas novas versões .min minificadas, em vez dos arquivos originais.
+
+Otimização de CSS:
+
+Se possível, analise o CSS e identifique o "CSS Crítico" (as regras mínimas necessárias para estilizar o topo da página).
+
+Sugira como mover esse CSS crítico para dentro de uma tag <style> no <head> do HTML, e carregar o restante do arquivo CSS (o .min.css) de forma assíncrona.
+
+Cache de Navegador (HTTP Headers):
+
+Se este projeto usar um servidor (como Node.js, Python, ou um arquivo de configuração .replit), configure os cabeçalhos de resposta HTTP.
+
+Instrua o servidor a enviar o cabeçalho Cache-Control: public, max-age=31536000 para todos os arquivos estáticos (imagens, .css, .js).
+
+Importante: Por favor, execute essas alterações com cuidado para não quebrar nenhuma funcionalidade do site.
